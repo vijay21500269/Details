@@ -1,0 +1,22 @@
+/* Background animation */
+@keyframes animateBackground {
+  0% { background-color: #020202; }
+  25% { background-color: #b66969; }
+  50% { background-color: rgb(127, 35, 35); }
+  75% { background-color: #df3030; }
+  100% { background-color: rgb(175, 0, 0); }
+}
+
+/* Ensure the app container fills the viewport */
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: animateBackground 10s infinite;
+}
