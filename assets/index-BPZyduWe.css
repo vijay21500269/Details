@@ -1,0 +1,1 @@
+@keyframes animateBackground{0%{background-color:#020202}25%{background-color:#b66969}50%{background-color:#7f2323}75%{background-color:#df3030}to{background-color:#af0000}}html,body,#root,.App{height:100%;margin:0}.App{display:flex;justify-content:center;align-items:center;height:100vh;animation:animateBackground 10s infinite}
